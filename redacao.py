@@ -30,7 +30,7 @@ pyautogui.press("space")
 pyautogui.press("space")
 
 #paragrafo2
-pyautogui.typewrite("")
+pyautogui.typewrite("jjfnunf")
 
 pyautogui.press("enter")
 pyautogui.press("space")
@@ -51,9 +51,8 @@ pyautogui.press("space")
 pyautogui.press("space")
 
 #paragrafo4
-pyautogui.typewrite("")
+pyautogui.typewrite("e12e3")
 
-pyautogui.press("enter")
 pyautogui.press("space")
 pyautogui.press("space")
 pyautogui.press("space")
