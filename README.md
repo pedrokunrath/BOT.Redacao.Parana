@@ -1,30 +1,41 @@
-Deixar a pagina do "REDAÇÃO PARANÁ" aberto e em tela cheia para que o bot consiga ler a página.
-##
+# Redacion!
 
+Este é um programa simples que utiliza a biblioteca `customtkinter` para criar uma interface gráfica onde o usuário pode digitar um texto e, após um intervalo de tempo, o programa digita automaticamente o texto utilizando a biblioteca `pynput`.
+
+## Funcionalidades
+
+- Interface gráfica para entrada de texto.
+- Digitação automática do texto após um intervalo de 5 segundos.
+- Avisos ao usuário sobre o início da digitação.
 
 ## Instalação
-Baixe também o python em seu "visual studio code"
-Baixe o python3 no crhome e instale o pyautogui com o seguinte comando no seu terminal : 
 
-```
-pip3 install pyautogui  
-```
+1. Clone o repositório:
+    ```sh
+    https://github.com/pedrokunrath/BOT.Redacao.Parana.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd BOT.Redacao.parana
+    ```
+## Dependências
 
-##
+- `customtkinter`
+- `pynput`
+- `tkinter`
+- `Pillow`
 
-## Execução
+## Uso
 
-```
-python3 main.py
-```
-
-##
-
-Um o dois bugs seram comuns então execute o codigo mais uma vez ser der errado.
-
-##
+1. Execute o script `redacao.py`:
+    ```sh
+    python redacao.py
+    ```
+2. Digite o texto desejado na área de entrada.
+3. Clique no botão para iniciar a digitação automática.
+4. Após 5 segundos, o texto será digitado automaticamente.
 
 
-O bot não é perfeito, mas é um bom começo.
+## Licença
 
-##
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
